@@ -9,7 +9,7 @@ export default function Project() {
           <p>
             <b>
               <a href="https://insurance.heshecar.com/customers/home">
-                Online Car Insurance and CMS
+                Online Car Insurance and CMS(Deprecated by client)
               </a>
             </b>
           </p>
@@ -18,10 +18,6 @@ export default function Project() {
               <a href="https://github.com/ben39053372/Online-Insurance">
                 GitHub
               </a>
-            </li>
-            <li>
-              My First freelance project. Mainly job is follow by a designed
-              wireframe to build a website.
             </li>
             <li>This is a online platform for car owner to buy a insurance.</li>
             <li>

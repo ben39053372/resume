@@ -13,43 +13,50 @@ const ExpPhysical = () => {
       <ul className="workExp__detailList">
         <li>
           <span>
-            Deploy a gitLab server using gitLab docker image for version
-            control. Migrate existing project from TFVC to git. Improve the
-            efficiency of collaborative development.
+            Deploy a gitLab server.
             <b> ( Linux / Docker / GitLab ) </b>
           </span>{" "}
         </li>
         <li>
           <span>
-            Develop some little tools for import a bulk data. Always need to
-            entry a lot of data to database, to reach the business logic. The
-            tools can save the time of manual input.{" "}
-            <b> ( Python / Sql Server / Docker ) </b>
-          </span>{" "}
-        </li>
-        <li>
-          <span>
-            Develop a mobile app for staff to change customer's photo. This app
-            can help staff quickly to change customer photo, and can give top
-            management to approval the photo changes.The old way is need to scan
-            hard copy to computer. Some business rely on customer photo, so this
-            app can help some much.{" "}
+            Develop a mobile app for staff to change customer's photo.
             <b> ( React Native / Express.js / Docker ) </b>
           </span>{" "}
         </li>
         <li>
           <span>
-            Develop a new CMS system for control system data(e.g. inventory,
+            Develop a CMS system for control system data(e.g. inventory,
             invoice, approval). ( Vue / Express.js / Sql Server / Docker )
           </span>{" "}
-        </li>
-        <li>
-          <span>Maintain existing applications ( Sql Server / VB.net )</span>
         </li>
       </ul>
     </div>
   );
 };
+
+const ExpPCCWS = () => {
+  return (
+    <div className="workExp__block">
+      <div className="workExp__jobDetail">
+        <h2 className="workExp__jobTitle">
+          Analyst programmer - PCCW Solutions
+        </h2>
+        <p className="workExp__period"> October 2021 - Present </p>
+      </div>
+      <ul className="workExp__detailList">
+        <li>
+          <span>Development HK CSD internal Mobile App (Kotlin android)</span>
+        </li>
+        <li>
+          <span>Development HK HA Mobile app(React Native)</span>
+        </li>
+        <li>
+          <span>Development MTR Mobile app(Web app, using micro frontend)</span>
+        </li>
+      </ul> 
+    </div>
+  )
+}
 
 const ExpSB = () => {
   return (
@@ -66,7 +73,7 @@ const ExpSB = () => {
         <h2 className="workExp__jobTitle">
           Web Developer - Success Base engineering ltd
         </h2>
-        <p className="workExp__period"> October 2020 - Present </p>
+        <p className="workExp__period"> October 2020 - October 2021 </p>
       </div>
       <ul className="workExp__detailList">
         <li>
@@ -85,14 +92,8 @@ const ExpSB = () => {
         </li>
         <li>
           <span>
-            Analyze project structure improve 3D rendering fps from 2x to 5x
+            Analyze project structure improve 3D rendering from 2x fps to 5x fps
           </span>{" "}
-        </li>
-        <li>
-          <span>Analyze React coding to improve web performance</span>{" "}
-        </li>
-        <li>
-          <span>giving suggestion for more good coding practice</span>
         </li>
       </ul>
     </div>
@@ -113,10 +114,7 @@ const ExpGaei = () => {
       </div>
       <ul className="workExp__detailList">
         <li>
-          Develop application's front-end with designed wireframe. My first
-          company project. The vendor maintain web project, but do not include
-          mobile wechat page, so manager assign this task for me. Manager
-          feedback is I can stand-alone development quickly.(Vue / Vuex /
+          Develop application's front-end with designed wireframe.(Vue / Vuex /
           Element / NodeJs)
         </li>
         <li>
@@ -125,12 +123,7 @@ const ExpGaei = () => {
         </li>
         <li>
           Cooperate with third-party vendor, connect the api between FrontEnd
-          and BackEnd. I can learn so much with vendor and learn how to
-          communicate with backend developer.
-        </li>
-        <li>
-          Use their gitlab server for version control. Learn how to use git with
-          a company team.
+          and BackEnd.
         </li>
       </ul>
     </div>
@@ -143,6 +136,7 @@ export default function WorkExp() {
       <div className="margin1">
         <h1 className="title">Work Experience</h1>
         <div className="workExp__flex padding1">
+          <ExpPCCWS/>
           <ExpSB />
           <ExpPhysical />
           <ExpGaei />
