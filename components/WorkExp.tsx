@@ -34,6 +34,36 @@ const ExpPhysical = () => {
   );
 };
 
+const ExpSingTao = () => {
+  return (
+    <div className="workExp__block">
+      <div className="workExp__jobDetail">
+        <h2 className="workExp__jobTitle">
+          Software Engineer - Sing Tao News Corporation Limited
+        </h2>
+        <p className="workExp__period"> July 2022 - Present </p>
+      </div>
+      <ul className="workExp__detailList">
+        <li>
+          <span>
+            Development Sing Tao headline app, android/ios/web(kotlin, swift,
+            js)
+          </span>
+        </li>
+        <li>
+          <span>Maintain mobile backend (java spring boot)</span>
+        </li>
+        <li>
+          <span>CI/CD for the mobile app</span>
+        </li>
+        <li>
+          <span>Code review with other colleague</span>
+        </li>
+      </ul>
+    </div>
+  );
+};
+
 const ExpPCCWS = () => {
   return (
     <div className="workExp__block">
@@ -41,7 +71,7 @@ const ExpPCCWS = () => {
         <h2 className="workExp__jobTitle">
           Analyst programmer - PCCW Solutions
         </h2>
-        <p className="workExp__period"> October 2021 - Present </p>
+        <p className="workExp__period"> October 2021 - July 2022 </p>
       </div>
       <ul className="workExp__detailList">
         <li>
@@ -53,10 +83,10 @@ const ExpPCCWS = () => {
         <li>
           <span>Development MTR Mobile app(Web app, using micro frontend)</span>
         </li>
-      </ul> 
+      </ul>
     </div>
-  )
-}
+  );
+};
 
 const ExpSB = () => {
   return (
@@ -136,7 +166,8 @@ export default function WorkExp() {
       <div className="margin1">
         <h1 className="title">Work Experience</h1>
         <div className="workExp__flex padding1">
-          <ExpPCCWS/>
+          <ExpSingTao />
+          <ExpPCCWS />
           <ExpSB />
           <ExpPhysical />
           <ExpGaei />

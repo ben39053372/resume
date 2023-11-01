@@ -16,7 +16,6 @@ export default function Home() {
 
       <main>
         <Header />
-        <Project />
         <SkillSet />
         <WorkExp />
         <Education />
